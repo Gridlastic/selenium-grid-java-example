@@ -1,0 +1,175 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5">
+
+	<listeners>
+		<listener class-name="java_example.CustomListener" />
+	</listeners>
+
+
+	
+	<!-- ******************************************** CHROME ***************************************************************************** -->
+	<test name="Test chrome on windows 10">
+		<parameter name="test-title" value="Test chrome on windows 10" />
+		<parameter name="browser-name" value="chrome" />
+		<parameter name="platform-name" value="WIN10" />
+		<parameter name="browser-version" value="latest" />
+		<parameter name="record-video" value="True" />
+		<classes>
+			<class name="java_example.test" />
+		</classes>
+	</test>
+	 <test name="Test chrome on linux">
+		<parameter name="test-title" value="Test chrome on linux" />
+		<parameter name="browser-name" value="chrome" />
+		<parameter name="platform-name" value="LINUX" />
+		<parameter name="browser-version" value="latest" />
+		<parameter name="record-video" value="True" />
+		<classes>
+			<class name="java_example.test" />
+		</classes>
+	</test>
+	<test name="Test chrome on windows 8.1">
+		<parameter name="test-title" value="Test chrome on windows 8.1" />
+		<parameter name="browser-name" value="chrome" />
+		<parameter name="platform-name" value="WIN8_1" />
+		<parameter name="browser-version" value="latest" />
+		<parameter name="record-video" value="True" />
+		<classes>
+			<class name="java_example.test" />
+		</classes>
+	</test>	
+	<test name="Test chrome on windows 8">
+		<parameter name="test-title" value="Test chrome on windows 8" />
+		<parameter name="browser-name" value="chrome" />
+		<parameter name="platform-name" value="WIN8" />
+		<parameter name="browser-version" value="latest" />
+		<parameter name="record-video" value="True" />
+		<classes>
+			<class name="java_example.test" />
+		</classes>
+	</test>	
+	<test name="Test chrome on windows 7">
+		<parameter name="test-title" value="Test chrome on windows 7" />
+		<parameter name="browser-name" value="chrome" />
+		<parameter name="platform-name" value="VISTA" />
+		<parameter name="browser-version" value="latest" />
+		<parameter name="record-video" value="True" />
+		<classes>
+			<class name="java_example.test" />
+		</classes>
+	</test>
+	
+
+
+	
+	<!-- ******************************************** FIREFOX ***************************************************************************** -->
+	<!-- <test name="Test firefox on windows 10">
+		<parameter name="test-title" value="Test firefox on windows 10" />
+		<parameter name="browser-name" value="firefox" />
+		<parameter name="platform-name" value="WIN10" />
+		<parameter name="browser-version" value="71" />
+		<parameter name="record-video" value="True" />
+		<classes>
+			<class name="java_example.test" />
+		</classes>
+	</test>
+	 <test name="Test firefox on linux">
+		<parameter name="test-title" value="Test firefox on linux" />
+		<parameter name="browser-name" value="firefox" />
+		<parameter name="platform-name" value="LINUX" />
+		<parameter name="browser-version" value="71" />
+		<parameter name="record-video" value="True" />
+		<classes>
+			<class name="java_example.test" />
+		</classes>
+	</test>
+	<test name="Test firefox on windows 8.1">
+		<parameter name="test-title" value="Test firefox on windows 8.1" />
+		<parameter name="browser-name" value="firefox" />
+		<parameter name="platform-name" value="WIN8_1" />
+		<parameter name="browser-version" value="71" />
+		<parameter name="record-video" value="True" />
+		<classes>
+			<class name="java_example.test" />
+		</classes>
+	</test>	
+	<test name="Test firefox on windows 8">
+		<parameter name="test-title" value="Test firefox on windows 8" />
+		<parameter name="browser-name" value="firefox" />
+		<parameter name="platform-name" value="WIN8" />
+		<parameter name="browser-version" value="71" />
+		<parameter name="record-video" value="True" />
+		<classes>
+			<class name="java_example.test" />
+		</classes>
+	</test>	
+	<test name="Test firefox on windows 7">
+		<parameter name="test-title" value="Test firefox on windows 7" />
+		<parameter name="browser-name" value="firefox" />
+		<parameter name="platform-name" value="VISTA" />
+		<parameter name="browser-version" value="71" />
+		<parameter name="record-video" value="True" />
+		<classes>
+			<class name="java_example.test" />
+		</classes>
+	</test> -->
+
+
+  
+	<!-- ******************************************** INTERNET EXPLORER ***************************************************************************** -->
+	<!-- <test name="Test internet explorer on windows 10">
+		<parameter name="test-title" value="Test internet explorer on windows 10" />
+		<parameter name="browser-name" value="internet explorer" />
+		<parameter name="platform-name" value="WIN10" />
+		<parameter name="browser-version" value="11" />
+		<parameter name="record-video" value="True" />
+		<classes>
+			<class name="java_example.test" />
+		</classes>
+	</test>
+	<test name="Test internet explorer on windows 8.1">
+		<parameter name="test-title" value="Test internet explorer on windows 8.1" />
+		<parameter name="browser-name" value="internet explorer" />
+		<parameter name="platform-name" value="WIN8_1" />
+		<parameter name="browser-version" value="11" />
+		<parameter name="record-video" value="True" />
+		<classes>
+			<class name="java_example.test" />
+		</classes>
+	</test>	
+	<test name="Test internet explorer on windows 8">
+		<parameter name="test-title" value="Test internet explorer on windows 8" />
+		<parameter name="browser-name" value="internet explorer" />
+		<parameter name="platform-name" value="WIN8" />
+		<parameter name="browser-version" value="10" />
+		<parameter name="record-video" value="True" />
+		<classes>
+			<class name="java_example.test" />
+		</classes>
+	</test>	
+	<test name="Test internet explorer on windows 7">
+		<parameter name="test-title" value="Test internet explorer on windows 7" />
+		<parameter name="browser-name" value="internet explorer" />
+		<parameter name="platform-name" value="VISTA" />
+		<parameter name="browser-version" value="11" />
+		<parameter name="record-video" value="True" />
+		<classes>
+			<class name="java_example.test" />
+		</classes>
+	</test> -->
+
+
+	
+	<!-- ******************************************** MICROSOFT EDGE ***************************************************************************** -->
+<!-- 	 <test name="Test Microsoft Edge on windows 10">
+		<parameter name="test-title" value="Test Microsoft Edge on windows 10" />
+		<parameter name="browser-name" value="MicrosoftEdge" />
+		<parameter name="platform-name" value="WIN10" />
+		<parameter name="browser-version" value="latest" />
+		<parameter name="record-video" value="True" />
+		<classes>
+			<class name="java_example.test" />
+		</classes>
+	</test> -->
+	
+</suite>

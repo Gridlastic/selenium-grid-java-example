@@ -47,7 +47,7 @@ public class test {
 			// On Linux start-maximized does not expand browser window to max screen size. Always set a window size.
 			if (platform_name.equalsIgnoreCase("linux")) {
 				options.addArguments(Arrays.asList("--window-position=0,0"));
-				options.addArguments(Arrays.asList("--window-size=1920,1080"));	
+				options.addArguments(Arrays.asList("--window-size=1840,1080"));	// starting with Chrome version 83, use width of 1840 instead of 1920 to capture the entire webpage on video recording.
 			} else {
 				options.addArguments(Arrays.asList("--start-maximized"));
 			}

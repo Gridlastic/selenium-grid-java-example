@@ -67,14 +67,15 @@ public class test {
 			options.setCapability("video", record_video); 
 
 			// Required to specify firefox binary location on Gridlastic grid nodes starting from selenium version 3.5.3+, see firefox documentation https://www.gridlastic.com/test-environments.html#firefox_testing				
+			if (!browser_version.equalsIgnoreCase("latest")) {
 			if (platform_name.equalsIgnoreCase("linux")){
 				options.setBinary("/home/ubuntu/Downloads/firefox"+browser_version+"/firefox");
 			} else {
 				options.setBinary("C:\\Program Files (x86)\\Mozilla Firefox\\firefox"+browser_version+"\\firefox.exe");
-			}				
-			driver = new RemoteWebDriver(new URL(hub),options);
+			}	
+			}
+			driver = new RemoteWebDriver(new URL(hub),options);		
 		}
-
 		
 		// INTERNER EXPLORER specifics
 		if (browser_name.equalsIgnoreCase("internet explorer")) {

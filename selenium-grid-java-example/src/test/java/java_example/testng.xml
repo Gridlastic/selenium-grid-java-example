@@ -67,7 +67,7 @@
 		<parameter name="test-title" value="Test firefox on windows 10" />
 		<parameter name="browser-name" value="firefox" />
 		<parameter name="platform-name" value="WIN10" />
-		<parameter name="browser-version" value="83" />
+		<parameter name="browser-version" value="latest" />
 		<parameter name="record-video" value="True" />
 		<classes>
 			<class name="java_example.test" />
@@ -77,7 +77,7 @@
 		<parameter name="test-title" value="Test firefox on linux" />
 		<parameter name="browser-name" value="firefox" />
 		<parameter name="platform-name" value="LINUX" />
-		<parameter name="browser-version" value="83" />
+		<parameter name="browser-version" value="latest" />
 		<parameter name="record-video" value="True" />
 		<classes>
 			<class name="java_example.test" />
@@ -87,7 +87,7 @@
 		<parameter name="test-title" value="Test firefox on windows 8.1" />
 		<parameter name="browser-name" value="firefox" />
 		<parameter name="platform-name" value="WIN8_1" />
-		<parameter name="browser-version" value="83" />
+		<parameter name="browser-version" value="84" />
 		<parameter name="record-video" value="True" />
 		<classes>
 			<class name="java_example.test" />
@@ -97,7 +97,7 @@
 		<parameter name="test-title" value="Test firefox on windows 8" />
 		<parameter name="browser-name" value="firefox" />
 		<parameter name="platform-name" value="WIN8" />
-		<parameter name="browser-version" value="83" />
+		<parameter name="browser-version" value="84" />
 		<parameter name="record-video" value="True" />
 		<classes>
 			<class name="java_example.test" />
@@ -107,7 +107,7 @@
 		<parameter name="test-title" value="Test firefox on windows 7" />
 		<parameter name="browser-name" value="firefox" />
 		<parameter name="platform-name" value="VISTA" />
-		<parameter name="browser-version" value="83" />
+		<parameter name="browser-version" value="84" />
 		<parameter name="record-video" value="True" />
 		<classes>
 			<class name="java_example.test" />

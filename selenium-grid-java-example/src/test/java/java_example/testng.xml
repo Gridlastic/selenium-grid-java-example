@@ -28,7 +28,7 @@
 			<class name="java_example.test" />
 		</classes>
 	</test>
-	<!-- <test name="Test chrome on windows 8.1">
+	<test name="Test chrome on windows 8.1">
 		<parameter name="test-title" value="Test chrome on windows 8.1" />
 		<parameter name="browser-name" value="chrome" />
 		<parameter name="platform-name" value="WIN8_1" />
@@ -57,7 +57,7 @@
 		<classes>
 			<class name="java_example.test" />
 		</classes>
-	</test> -->
+	</test>
 	
 
 
@@ -83,7 +83,7 @@
 			<class name="java_example.test" />
 		</classes>
 	</test>
-	<!-- <test name="Test firefox on windows 8.1">
+	<test name="Test firefox on windows 8.1">
 		<parameter name="test-title" value="Test firefox on windows 8.1" />
 		<parameter name="browser-name" value="firefox" />
 		<parameter name="platform-name" value="WIN8_1" />
@@ -112,7 +112,7 @@
 		<classes>
 			<class name="java_example.test" />
 		</classes>
-	</test> -->
+	</test>
 
 
   
@@ -127,7 +127,7 @@
 			<class name="java_example.test" />
 		</classes>
 	</test>
-	<!-- <test name="Test internet explorer on windows 8.1">
+	<test name="Test internet explorer on windows 8.1">
 		<parameter name="test-title" value="Test internet explorer on windows 8.1" />
 		<parameter name="browser-name" value="internet explorer" />
 		<parameter name="platform-name" value="WIN8_1" />
@@ -156,7 +156,7 @@
 		<classes>
 			<class name="java_example.test" />
 		</classes>
-	</test> -->
+	</test>
 
 
 	
